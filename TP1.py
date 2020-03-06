@@ -32,8 +32,8 @@ for i in n :
     A = np.tril(A)
     for k in range(1) :
         t0 = time.time()
-        res.append(sco.linprog(c, A, b, method='revised simplex', options = {'maxiter': 100000,
-                                                                              'tol':1e-12}))
+        res.append(sco.linprog(c, A, b, method='revised simplex', options = {'maxiter': 1000000,
+                                                                              'tol':1e-20}))
         tps.append(time.time() - t0)
     dT.append(statistics.mean(tps))
 
