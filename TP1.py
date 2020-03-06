@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import time
 import statistics
 from sklearn.linear_model import LinearRegression
+import sklearn
 import pandas as pd
 from sklearn import metrics
 
@@ -53,8 +54,8 @@ aE = np.exp(regressorE.intercept_)
 bE = regressorE.coef_
 yE = aE * np.exp(bE * n)
 # Find MSE
-rE = sklearn.metrics.r2_score(dT, yE)
-rP = sklearn.metrics.r2_score(dT, yP)
+rE = metrics.r2_score(dT, yE)
+rP = metrics.r2_score(dT, yP)
 print('Mean Squared Error exponential:',rE)
 print('Mean Squared Error polynomial:', rP)
 
