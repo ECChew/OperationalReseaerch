@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 import pandas as pd
 from sklearn import metrics
 #______Klee-Minty LP
-n = [i for i in range(2, 21)]
+n = [i for i in range(5, 15)]
 
 res = []
 dT = []
@@ -28,10 +28,11 @@ for i in n :
     A = np.tril(A)
     for k in range(10) :
         t0 = time.time()
-        res.append(sco.linprog(c, A, b, method='revised simplex', options = {'maxiter': 10000,
-                                                                              'tol':1e-25}))
+        res.append(sco.linprog(c, A, b, method='revised simplex', options = {'maxiter': 100000,
+                                                                              'tol':1e-12}))
         tps.append(time.time() - t0)
     dT.append(statistics.mean(tps))
+
 
 n = np.asarray([n]).reshape(-1, 1)
 nL = np.asarray([np.log(n)]).reshape(-1, 1)
