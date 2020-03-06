@@ -6,8 +6,11 @@ import statistics
 from sklearn.linear_model import LinearRegression
 import pandas as pd
 from sklearn import metrics
+
+
+
 #______Klee-Minty LP
-n = [i for i in range(5, 15)]
+n = [i for i in range(5, 21)]
 
 res = []
 dT = []
@@ -26,7 +29,7 @@ for i in n :
         c.append(-10 ** (i - j))
         b.append(100 ** j)
     A = np.tril(A)
-    for k in range(10) :
+    for k in range(1) :
         t0 = time.time()
         res.append(sco.linprog(c, A, b, method='revised simplex', options = {'maxiter': 100000,
                                                                               'tol':1e-12}))
@@ -49,17 +52,22 @@ regressorE.fit(n, dTL)
 aE = np.exp(regressorE.intercept_)
 bE = regressorE.coef_
 yE = aE * np.exp(bE * n)
+# Find MSE
+rE = sklearn.metrics.r2_score(dT, yE)
+rP = sklearn.metrics.r2_score(dT, yP)
+print('Mean Squared Error exponential:',rE)
+print('Mean Squared Error polynomial:', rP)
 
 plt.loglog(n, dT, label = 'true')
 plt.loglog(n, yP, label = 'Polynomial')
 plt.loglog(n, yE, label = 'Exponential')
-plt.loglog(n, (yP + yE) / 2, label = 'Mean')
+#plt.loglog(n, (yP + yE) / 2, label = 'Mean')
 plt.legend()
 plt.show()
 
 plt.semilogy(n, dT, label = 'true')
 plt.semilogy(n, yP, label = 'Polynomial')
 plt.semilogy(n, yE, label = 'Exponential')
-plt.semilogy(n, (yP + yE) / 2, label = 'Mean')
+#plt.semilogy(n, (yP + yE) / 2, label = 'Mean')
 plt.legend()
 plt.show()
