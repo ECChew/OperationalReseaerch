@@ -11,7 +11,7 @@ from sklearn import metrics
 
 
 #______Klee-Minty LP
-n = [i for i in range(5, 21)]
+n = [i for i in range(5, 16)]
 
 res = []
 dT = []

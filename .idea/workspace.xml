@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da7f813-797e-4dbf-9460-4a6903320346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ma321" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -39,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TP1">
+  <component name="RunManager" selected="Python.TP2">
     <configuration name="TP1-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ma421" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,8 +86,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TP2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ma421" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TP2" />
         <item itemvalue="Python.TP1" />
         <item itemvalue="Python.TP1-1" />
       </list>
@@ -112,7 +137,10 @@
       <workItem from="1582988433465" duration="6021000" />
       <workItem from="1583346772816" duration="23000" />
       <workItem from="1583395758853" duration="748000" />
-      <workItem from="1583497955559" duration="4496000" />
+      <workItem from="1583497955559" duration="7091000" />
+      <workItem from="1583844258027" duration="34000" />
+      <workItem from="1583844482772" duration="12000" />
+      <workItem from="1584093879078" duration="272000" />
     </task>
     <servers />
   </component>
@@ -133,7 +161,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ma421$TP1.coverage" NAME="TP1 Coverage Results" MODIFIED="1583502033605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ma421$TP1.coverage" NAME="TP1 Coverage Results" MODIFIED="1583504995366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ma421$TP1_1.coverage" NAME="TP1-1 Coverage Results" MODIFIED="1582988558228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ma421$TP2.coverage" NAME="TP2 Coverage Results" MODIFIED="1584094110892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
