@@ -15,7 +15,7 @@ p1 += 1 * x1 + 4 * x2 + 1 * x3 >= 10.0, "First constraint"
 p1 += 4 * x1 + 2 * x2 + 2 * x3 >= 13, "Second constraint"
 p1 += 1 * x1 + 1 * x2 - 1 * x3 >= 0, "Second constraint"
 #Write LP into a .lp file
-p1.writeLP("TP2LP1.lp")
+p1.writeLP("TP2LP2.lp")
 #Solve the LP
 #Another solver can be used by inserting it into the parenthesis ex : p1.solve(CPLEX())
 p1.solve()
