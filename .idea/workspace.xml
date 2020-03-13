@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da7f813-797e-4dbf-9460-4a6903320346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tuto PuLP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2 - Q2LP2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +139,7 @@
       <workItem from="1583497955559" duration="7091000" />
       <workItem from="1583844258027" duration="34000" />
       <workItem from="1583844482772" duration="12000" />
-      <workItem from="1584093879078" duration="1577000" />
+      <workItem from="1584093879078" duration="1928000" />
     </task>
     <servers />
   </component>
