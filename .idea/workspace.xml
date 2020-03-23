@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da7f813-797e-4dbf-9460-4a6903320346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP2LP1.lp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LabelState.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binaryvote.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataElection.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataElection.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2-Elections.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2-Elections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2LP1.lp" beforeDir="false" afterPath="$PROJECT_DIR$/TP2LP1.lp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +195,9 @@
       <workItem from="1584093879078" duration="3731000" />
       <workItem from="1584354957202" duration="2411000" />
       <workItem from="1584449430155" duration="669000" />
-      <workItem from="1584463069708" duration="1351000" />
+      <workItem from="1584463069708" duration="2110000" />
+      <workItem from="1584601980286" duration="6000" />
+      <workItem from="1584966800659" duration="3427000" />
     </task>
     <servers />
   </component>
@@ -220,6 +225,6 @@
     <SUITE FILE_PATH="coverage/Ma421$TP1_1.coverage" NAME="TP1-1 Coverage Results" MODIFIED="1582988558228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ma421$TP2.coverage" NAME="TP2 Coverage Results" MODIFIED="1584095401647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ma421$TP2___Q2LP2.coverage" NAME="TP2 - Q2LP2 Coverage Results" MODIFIED="1584097630364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ma421$TP2_Elections.coverage" NAME="TP2-Elections Coverage Results" MODIFIED="1584464626108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ma421$TP2_Elections.coverage" NAME="TP2-Elections Coverage Results" MODIFIED="1584970146787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -4,13 +4,23 @@ import pulp
 import csv
 
 N = 538
-
+def getResultBinary(vote, pop):
+    s = 0
+    for i in range(len(vote)):
+        s += float(vote[i][0]) * pop[i]
+    print(s)
+    return s
 with open('DataElection.csv', newline='') as f:
     reader = csv.reader(f)
     pop = list(reader)
-alphalab = []
-for i in range(len(pop)) :
-    alphalab.append("alpha_" + str(i + 1))
+
+with open('LabelState.csv', newline='') as f:
+    reader = csv.reader(f)
+    alphalab = list(reader)
+
+with open('binaryvote.csv', newline='') as f:
+    reader = csv.reader(f)
+    binaryvote = list(reader)
 
 #Initialize variables
 p1 = pulp.LpProblem("US Elections 2016", pulp.LpMinimize)
@@ -37,7 +47,23 @@ p1.solve()
 #Print status of the solution
 print("Status:", pulp.LpStatus[p1.status])
 #Print solution variables
+alphares = []
+stateID = []
 for v in p1.variables():
+    alphares.append(v.varValue)
+    stateID.append(v.name)
     print(v.name, "=", v.varValue)
+stateID = stateID[:-2]
+alphares = alphares[:-2]
 #Objective function value
 print("Objective function value = ", pulp.value(p1.objective))
+mat = np.array([alphares, stateID])
+print(mat.shape)
+s = getResultBinary(binaryvote, alphares)
+print(N/2)
+if (s < N/2) :
+    print("Winner : Trump")
+elif (s > N/2):
+    print("Winner : Clinton")
+else :
+    print("Undecided, need to take more into account")
