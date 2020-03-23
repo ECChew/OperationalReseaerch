@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da7f813-797e-4dbf-9460-4a6903320346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LabelState.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binaryvote.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataElectionEligible.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2-Eligible population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP2LP1Eligible.lp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataElection.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataElection.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2-Elections.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2-Elections.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2LP1.lp" beforeDir="false" afterPath="$PROJECT_DIR$/TP2LP1.lp" afterDir="false" />
     </list>
@@ -47,29 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TP2-Elections">
-    <configuration name="TP1-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ma421" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.TP2-Eligible population">
     <configuration name="TP1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ma421" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +114,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TP2-Eligible population" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ma421" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP2-Eligible population.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TP2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ma421" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TP2-Eligible population" />
         <item itemvalue="Python.TP2-Elections" />
         <item itemvalue="Python.TP2 - Q2LP2" />
         <item itemvalue="Python.TP2" />
         <item itemvalue="Python.TP1" />
-        <item itemvalue="Python.TP1-1" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
       <workItem from="1584449430155" duration="669000" />
       <workItem from="1584463069708" duration="2110000" />
       <workItem from="1584601980286" duration="6000" />
-      <workItem from="1584966800659" duration="3427000" />
+      <workItem from="1584966800659" duration="6457000" />
     </task>
     <servers />
   </component>
@@ -225,6 +225,7 @@
     <SUITE FILE_PATH="coverage/Ma421$TP1_1.coverage" NAME="TP1-1 Coverage Results" MODIFIED="1582988558228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ma421$TP2.coverage" NAME="TP2 Coverage Results" MODIFIED="1584095401647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ma421$TP2___Q2LP2.coverage" NAME="TP2 - Q2LP2 Coverage Results" MODIFIED="1584097630364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ma421$TP2_Elections.coverage" NAME="TP2-Elections Coverage Results" MODIFIED="1584970146787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ma421$TP2_Elections.coverage" NAME="TP2-Elections Coverage Results" MODIFIED="1584971148997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ma421$TP2_Eligible_population.coverage" NAME="TP2-Eligible population Coverage Results" MODIFIED="1584972734362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

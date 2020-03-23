@@ -10,7 +10,7 @@ def getResultBinary(vote, pop):
         s += float(vote[i][0]) * pop[i]
     print(s)
     return s
-with open('DataElection.csv', newline='') as f:
+with open('DataElectionEligible.csv', newline='') as f:
     reader = csv.reader(f)
     pop = list(reader)
 
