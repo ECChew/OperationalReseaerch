@@ -61,6 +61,7 @@ print("Status:", pulp.LpStatus[p1.status])
 #Print solution variables
 alphares = []
 stateID = []
+
 for v in p1.variables():
     alphares.append(v.varValue)
     stateID.append(str(v.name))
@@ -73,6 +74,8 @@ mat = np.array([alphares, stateID])
 newstateID = [i[0] for i in alphalab]
 print(newstateID)
 newalphares = [alphares[i]*1e6/float(pop[i][0]) for i in range(len(alphares))]
+for i in range(len(newalphares)):
+    print(stateID[i], ':', round(newalphares[i],3))
 zipbObj = zip(newstateID, newalphares)
 dictOfWords = dict(zipbObj)
 print(dictOfWords)
